@@ -1,0 +1,24 @@
+.MainDash {
+    display: flex;
+    flex-direction: column;
+    flex: 0.7; /* Memastikan MainDash memenuhi 70% dari lebar konten */
+    justify-content: space-evenly;
+    margin-right: 20px; 
+    margin-left: 20px; /* Menambahkan ruang antara MainDash dan Sidebar */
+    /* Menambahkan ruang antara MainDash dan RightSide */
+  }
+  
+
+@media screen and (max-width: 1200px) {
+    .MainDash{
+        justify-content:flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .MainDash{
+        align-items: center;
+    }
+}

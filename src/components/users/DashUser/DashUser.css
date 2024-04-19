@@ -1,0 +1,30 @@
+.DashUser {
+  max-width: 600px; /* Sesuaikan lebar sesuai kebutuhan */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+  margin-bottom: 20px;
+}
+
+.container-full {
+  margin-bottom: 20px; /* Sesuaikan dengan posisi yang diinginkan */
+}
+
+.container-full p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.chart-container {
+  width: 100%;
+}
+
+/* Menerapkan gaya ke grafik */
+.apexcharts-canvas {
+  border-radius: 800px;
+}
